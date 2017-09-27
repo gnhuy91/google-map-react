@@ -1,5 +1,7 @@
 /* eslint-disable */
-import React, { PropTypes } from 'react';
+import PropTypes from 'prop-types';
+
+import React from 'react';
 import compose from 'recompose/compose';
 import defaultProps from 'recompose/defaultProps';
 import withStateSelector from './utils/withStateSelector';
